@@ -60,22 +60,58 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+# The 'puts' command displays the results of the following code in a new line. Both the number '4'
+# and the number '9' on either side of the conditional operator '<' in the code after the 'puts'
+# command are integers and can be directly compared to each other numerically. The conditional operator
+# '<' in the code following the 'puts' command represents a 'less than' query to determine if
+# the number preceding it is a lower value than that following it via a simple 'true' or 'false'. 
+# The code as a whole effectively means "Display the result of the following: is the number '4' 
+# a smaller value than the number '9'?" and will output a result of 'true'.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# The first line defines the variable 'books' as '3' using a single equals sign; any call to 
+# the variable 'books' will return the integer '3'. The 'puts' command displays the results of 
+# the following code in a new line. The number '4' preceding the conditional operator '<' in 
+# the code after the 'puts' is an integer. while the 'books' following the '<' is a variable and 
+# will return the integer '3' as that has already been assigned. The conditional operator
+# '<' in the code following the 'puts' command represents a 'less than' query to determine if
+# the number preceding it is a lower value than that following it via a simple 'true' or 'false'. 
+# The code as a whole effectively means "Assign the value '3' to the variable 'books'. Display 
+# the result of the following: is the number '4' a smaller value than the variable 'books' 
+# which is equal to '3'?" and will output a result of 'false'.
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# The first line defines the variable 'friends' as '6' using a single equals sign; any call to 
+# the variable 'friends' will return the integer '6'. The second line performs the same function,
+# with the variable 'friends' and the integer '2'. The 'puts' command displays the results of 
+# the following code in a new line. The 'friends' preceding the conditional operator '>'
+# in the code after the 'puts' is a variable, as is the 'books' following the '>'; the two variables 
+# will return the integers '6' and '2', respectively, as those have already been assigned. 
+# The conditional operator '>' in the code following the 'puts' command represents a 'greater than'
+# query to determine if the number preceding it is a higher value than that following it via a 
+# simple 'true' or 'false'. The code as a whole effectively means "Assign the value '6' to the 
+# variable 'friends'. Assign the value '2' to the variable 'siblings'. Display the result of 
+# the following: is the variable 'friends' which is equal to '6' a larger value than the variable 
+# 'siblings' which is equal to '2'?" and will output a result of 'true'.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
-
+# The first line defines the variable 'attendees' as '9' using a single equals sign; any call to 
+# the variable 'friends' will return the integer '8'. The second line performs the same function,
+# with the variable 'meals' and the integer '8'. The 'puts' command displays the results of 
+# the following code in a new line. The 'attendees' preceding the conditional operator '!='
+# in the code after the 'puts' is a variable, as is the 'meals' following the '!='; the two variables 
+# will return the integers '9' and '8', respectively, as those have already been assigned. 
+# The conditional operator '!=' in the code following the 'puts' command represents a 
+# 'does not equal' query to determine if the number preceding it is not the same as that following it 
+# via a simple 'true' or 'false'. The code as a whole effectively means "Assign the value '9' to the 
+# variable 'attendees'. Assign the value '8' to the variable 'meals'. Display the result of 
+# the following: is the variable 'attendees' which is equal to '9' not the same as the variable 
+# 'meals' which is equal to '8'?" and will output a result of 'true'.
 
 #-------------------
 # PART 3: Logical Operators
