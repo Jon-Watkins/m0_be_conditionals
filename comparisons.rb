@@ -60,58 +60,66 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-# The 'puts' command displays the results of the following code in a new line. Both the number '4'
-# and the number '9' on either side of the conditional operator '<' in the code after the 'puts'
-# command are integers and can be directly compared to each other numerically. The conditional operator
-# '<' in the code following the 'puts' command represents a 'less than' query to determine if
-# the number preceding it is a lower value than that following it via a simple 'true' or 'false'. 
-# The code as a whole effectively means "Display the result of the following: is the number '4' 
-# a smaller value than the number '9'?" and will output a result of 'true'.
+=begin
+The 'puts' command displays the results of the following code in a new line. Both the number '4'
+and the number '9' on either side of the conditional operator '<' in the code after the 'puts'
+command are integers and can be directly compared to each other numerically. The conditional operator
+'<' in the code following the 'puts' command represents a 'less than' query to determine if
+the number preceding it is a lower value than that following it via a simple 'true' or 'false'. 
+The code as a whole effectively means "Display the result of the following: is the number '4' 
+a smaller value than the number '9'?" and will output a result of 'true'.
+=end
 
 books = 3
 puts 4 < books
-# The first line defines the variable 'books' as '3' using a single equals sign; any call to 
-# the variable 'books' will return the integer '3'. The 'puts' command displays the results of 
-# the following code in a new line. The number '4' preceding the conditional operator '<' in 
-# the code after the 'puts' is an integer. while the 'books' following the '<' is a variable and 
-# will return the integer '3' as that has already been assigned. The conditional operator
-# '<' in the code following the 'puts' command represents a 'less than' query to determine if
-# the number preceding it is a lower value than that following it via a simple 'true' or 'false'. 
-# The code as a whole effectively means "Assign the value '3' to the variable 'books'. Display 
-# the result of the following: is the number '4' a smaller value than the variable 'books' 
-# which is equal to '3'?" and will output a result of 'false'.
+=begin
+The first line defines the variable 'books' as '3' using a single equals sign; any call to 
+the variable 'books' will return the integer '3'. The 'puts' command displays the results of 
+the following code in a new line. The number '4' preceding the conditional operator '<' in 
+the code after the 'puts' is an integer. while the 'books' following the '<' is a variable and 
+will return the integer '3' as that has already been assigned. The conditional operator
+'<' in the code following the 'puts' command represents a 'less than' query to determine if
+the number preceding it is a lower value than that following it via a simple 'true' or 'false'. 
+The code as a whole effectively means "Assign the value '3' to the variable 'books'. Display 
+the result of the following: is the number '4' a smaller value than the variable 'books' 
+which is equal to '3'?" and will output a result of 'false'.
+=end
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# The first line defines the variable 'friends' as '6' using a single equals sign; any call to 
-# the variable 'friends' will return the integer '6'. The second line performs the same function,
-# with the variable 'friends' and the integer '2'. The 'puts' command displays the results of 
-# the following code in a new line. The 'friends' preceding the conditional operator '>'
-# in the code after the 'puts' is a variable, as is the 'books' following the '>'; the two variables 
-# will return the integers '6' and '2', respectively, as those have already been assigned. 
-# The conditional operator '>' in the code following the 'puts' command represents a 'greater than'
-# query to determine if the number preceding it is a higher value than that following it via a 
-# simple 'true' or 'false'. The code as a whole effectively means "Assign the value '6' to the 
-# variable 'friends'. Assign the value '2' to the variable 'siblings'. Display the result of 
-# the following: is the variable 'friends' which is equal to '6' a larger value than the variable 
-# 'siblings' which is equal to '2'?" and will output a result of 'true'.
+=begin
+The first line defines the variable 'friends' as '6' using a single equals sign; any call to 
+the variable 'friends' will return the integer '6'. The second line performs the same function,
+with the variable 'friends' and the integer '2'. The 'puts' command displays the results of 
+the following code in a new line. The 'friends' preceding the conditional operator '>'
+in the code after the 'puts' is a variable, as is the 'books' following the '>'; the two variables 
+will return the integers '6' and '2', respectively, as those have already been assigned. 
+The conditional operator '>' in the code following the 'puts' command represents a 'greater than'
+query to determine if the number preceding it is a higher value than that following it via a 
+simple 'true' or 'false'. The code as a whole effectively means "Assign the value '6' to the 
+variable 'friends'. Assign the value '2' to the variable 'siblings'. Display the result of 
+the following: is the variable 'friends' which is equal to '6' a larger value than the variable 
+'siblings' which is equal to '2'?" and will output a result of 'true'.
+=end
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# The first line defines the variable 'attendees' as '9' using a single equals sign; any call to 
-# the variable 'friends' will return the integer '8'. The second line performs the same function,
-# with the variable 'meals' and the integer '8'. The 'puts' command displays the results of 
-# the following code in a new line. The 'attendees' preceding the conditional operator '!='
-# in the code after the 'puts' is a variable, as is the 'meals' following the '!='; the two variables 
-# will return the integers '9' and '8', respectively, as those have already been assigned. 
-# The conditional operator '!=' in the code following the 'puts' command represents a 
-# 'does not equal' query to determine if the number preceding it is not the same as that following it 
-# via a simple 'true' or 'false'. The code as a whole effectively means "Assign the value '9' to the 
-# variable 'attendees'. Assign the value '8' to the variable 'meals'. Display the result of 
-# the following: is the variable 'attendees' which is equal to '9' not the same as the variable 
-# 'meals' which is equal to '8'?" and will output a result of 'true'.
+=begin
+The first line defines the variable 'attendees' as '9' using a single equals sign; any call to 
+the variable 'friends' will return the integer '8'. The second line performs the same function,
+with the variable 'meals' and the integer '8'. The 'puts' command displays the results of 
+the following code in a new line. The 'attendees' preceding the conditional operator '!='
+in the code after the 'puts' is a variable, as is the 'meals' following the '!='; the two variables 
+will return the integers '9' and '8', respectively, as those have already been assigned. 
+The conditional operator '!=' in the code following the 'puts' command represents a 
+'does not equal' query to determine if the number preceding it is not the same as that following it 
+via a simple 'true' or 'false'. The code as a whole effectively means "Assign the value '9' to the 
+variable 'attendees'. Assign the value '8' to the variable 'meals'. Display the result of 
+the following: is the variable 'attendees' which is equal to '9' not the same as the variable 
+'meals' which is equal to '8'?" and will output a result of 'true'.
+=end
 
 #-------------------
 # PART 3: Logical Operators
@@ -145,12 +153,14 @@ puts loves_to_play || loves_dog_park
 puts loves_to_play && age
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# The final line evaluated to '1'. The 'age' variable is assigned an integer and not a boolean,
-# and thus the logical operator cannot evaluate if both statements are 'true' or 'false' which it is 
-# trying to do because of the '&&' logical operator, as that would require that both 'age' 
-# and 'loves_to_play' be boolean. I used the age variable, as that was what was given, and followed
-# the same structure as the prior answers. If I wanted to return a true or false, I would write the
-# following code:
+=begin
+The final line evaluated to '1'. The 'age' variable is assigned an integer and not a boolean,
+and thus the logical operator cannot evaluate if both statements are 'true' or 'false' which it is 
+trying to do because of the '&&' logical operator, as that would require that both 'age' 
+and 'loves_to_play' be boolean. I used the age variable, as that was what was given, and followed
+the same structure as the prior answers. If I wanted to return a true or false, I would write the
+following code:
+=end
 
 if age >=1
     is_puppy = false
