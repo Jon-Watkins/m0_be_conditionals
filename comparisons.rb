@@ -133,15 +133,28 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# The final line evaluated to '1'. The 'age' variable is assigned an integer and not a boolean,
+# and thus the logical operator cannot evaluate if both statements are 'true' or 'false' which it is 
+# trying to do because of the '&&' logical operator, as that would require that both 'age' 
+# and 'loves_to_play' be boolean. I used the age variable, as that was what was given, and followed
+# the same structure as the prior answers. If I wanted to return a true or false, I would write the
+# following code:
+
+if age >=1
+    is_puppy = false
+else
+    is_puppy = true
+end
+puts loves_to_play && is_puppy
